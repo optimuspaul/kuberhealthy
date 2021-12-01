@@ -78,7 +78,7 @@ func createDeploymentConfig(image string) *v1.Deployment {
 		checkDeploymentNodeSelectors = nil
 	}
 
-	graceSeconds := int64(1)
+	graceSeconds := int64(15)
 
 	// Make and define a pod spec with containers.
 	podSpec := corev1.PodSpec{
