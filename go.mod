@@ -2,7 +2,7 @@ module github.com/kuberhealthy/kuberhealthy/v2
 
 require (
 	github.com/Pallinder/go-randomdata v1.1.0
-	github.com/aws/aws-sdk-go v1.25.24
+	github.com/aws/aws-sdk-go v1.33.0
 	github.com/blang/semver v3.5.1+incompatible // indirect
 	github.com/cenkalti/backoff v2.2.1+incompatible
 	github.com/codingsince1985/checksum v1.1.0
